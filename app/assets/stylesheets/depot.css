@@ -110,3 +110,40 @@
   font-weight: bold;
   margin-right: 2em;
 }
+
+/* Styles for main page */
+
+#banner {
+  background: #99cc99;
+  border-bottom: 2px solid;
+  color: #282;
+  font: small-caps 40px/40px "Times New Roman",serif;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#banner > img {
+  float: left;
+}
+
+#columns {
+  background: #141;
+}
+
+#main {
+  background: #fff;
+  margin-left: 17em;
+  padding: 4ex 0 0 2em;
+}
+
+#side {
+  background: #141;
+  float: left;
+  padding: 1em 0 1em 1em;
+  width: 16em;
+}
+
+#side a {
+  color: #bfb;
+  font-size: small;
+}
