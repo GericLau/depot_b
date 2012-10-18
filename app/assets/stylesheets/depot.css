@@ -111,6 +111,12 @@
   margin-right: 2em;
 }
 
+/* Styles for the button */
+
+#store .entry form, #store .entry form div {
+  display: inline;
+}
+
 /* Styles for main page */
 
 #banner {
