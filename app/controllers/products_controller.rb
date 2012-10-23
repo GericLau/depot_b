@@ -81,4 +81,14 @@ class ProductsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def who_bought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+       format.xml { render :xml => @product }
+      # format.json { render :json => @product }
+      # format.json { render :layout => false, :json => @product.to_json(:include => :orders) }
+    end # at first I forgot this 'end', cause a lot problem. >_<
+  end
 end

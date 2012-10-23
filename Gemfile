@@ -9,6 +9,10 @@ gem 'sqlite3'
 
 gem 'json'
 
+# add one line here
+
+gem 'will_paginate', '>= 3.0.pre'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
